@@ -18,8 +18,6 @@ import {Image} from './image.interface';
       <h2>{{image.title}}</h2>
       <img src="{{image.url}}" alt="">
     </li>
-
-   
   </ul>
 
 </div>
@@ -93,9 +91,9 @@ export class CSSCarouselComponent {
 
 //IMAGES array implementing Image interface
 var IMAGES: Image[] = [
-  { "title": "Reliable", "url": "./public/assets/img/addhand.jpg" },
-  { "title": "Polished", "url": "./public/assets/img/development.jpg" },
-  { "title": "Connection", "url": "./public/assets/img/eye-tech.jpg" },
-  { "title": "Communication", "url": "./public/assets/img/happy_customers.jpg" },
-  { "title": "Identification", "url": "./public/assets/img/identify.png" }  
+  { "title": "Reliable", "url": "./img/eye ht 1.jpg" },
+  { "title": "Polished", "url": "./img/finger scan ht 2.jpg" },
+  { "title": "Connection", "url": "./img/hand pointing ht.jpg" },
+  { "title": "Communication", "url": "./img/hand shake ht 5.jpg" },
+  { "title": "Identification", "url": "./img/security hand ht 4.png" }  
 ];
